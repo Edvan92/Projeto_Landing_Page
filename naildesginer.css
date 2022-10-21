@@ -1,0 +1,232 @@
+@media screen {
+    
+}
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: linear-gradient(45deg, white, rgb(250, 178, 190));
+    box-shadow: 3px 3px 19px pink;   
+}
+
+.logo{
+    flex: 20%;
+    text-align: center;
+    margin-left: 8%;   
+}
+
+.logo a{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color:rgba(0, 109, 240, 1);
+    font-weight:bolder;
+    text-decoration: none;
+
+}
+
+.logo a:hover{
+    color: rgb(241, 11, 49);
+}
+
+.menu{
+    flex:70%;
+    text-align: right;
+    padding: 15px; 
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 18px;
+    color: #275cbd;
+}
+
+.menu a:hover{
+    color: rgb(241, 11, 49);
+    border-top: 2px solid rgb(204, 130, 142);
+    padding-top: 5px;
+}
+
+#botao{
+    background: rgb(153, 213, 253);
+    padding: 10px 25px;
+    color: rgb(212, 7, 212),;
+    box-shadow: 1px 1px 3px;
+    border-radius: 15px;
+    margin-right: 10%;
+    margin-left: 9px;    
+}
+
+#botao:hover{
+    background: rgb(178, 205, 235);
+    box-shadow: 2px 2px 3px;
+    color: rgb(255, 7, 181);
+    border: none;
+}
+
+.header{
+    display: flex;
+    height: 500px;
+    margin-top: 25px;
+}
+
+.headline{
+    display:relative ;
+    padding-top: 190px;
+    margin-left:9%;
+    font-family:'Lobster Two', cursive;
+    animation: complete 5s -2s;    
+}
+
+@keyframes complete{
+   0%  {padding-top: 50%;}
+} 
+
+.img-right img{
+    position: relative;
+    z-index: 3;
+    margin: 20%;
+    margin-top: 10px;
+    animation: imagem 7s -2s;   
+}
+
+@keyframes imagem{
+    0%  {opacity: 0;}
+    10% {opacity: 0;}
+    20% {opacity: 0;}
+}
+
+.headline h2{
+    display: flex;
+    font-weight: 900px;
+    font-size: 20px;
+    color:#275cbd;
+    padding: 0;
+    margin: 20px;
+    
+}
+
+section{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    width: 90%;
+    text-align: center;
+    height: 150px;
+}
+
+section h2{
+    width: 100%;
+    margin: 0;
+    font-family:'Lobster Two', cursive;
+    color:rgb(26, 119, 240);
+    font-weight: blod;
+}
+
+section p{
+    overflow: hidden;
+   
+}
+
+#produto{
+    font-size: 50px;
+    padding: 20px;
+    color:rgb(26, 119, 240);
+    
+}
+
+.servico{
+    display: inline-block;
+    color: rgb(26, 119, 240);
+}
+
+.servico h3{
+    font-family:'Lobster Two', cursive;
+}
+
+.card{
+    display: inline-block; 
+    align-items: top;
+    width: 30%;
+    border: 2px solid #ffc0cb;
+    border-radius: 15px; 
+    padding: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card img{
+    padding: 10px;
+}
+
+.card button a{
+    text-decoration: none;
+    padding: 30px;  
+}
+
+.card button{
+    padding: 5px;
+    border: 2px solid pink;
+    border-radius: 15px;
+    animation: button 3s ;
+}
+
+@keyframes button {
+    form{background:red;}
+    to{ background-color: pink;}
+}
+
+.oculto-text{
+    display: none;
+}
+
+.card:hover{
+    background: linear-gradient(rgb(250, 178, 190),white);
+    box-shadow: 4px 6px 19px;
+    color: rgb(26, 119, 240);
+    padding:40px;
+    
+}
+ .card:hover .card-text{
+    display: none;
+
+ }
+
+ .card:hover .oculto-text{
+    display: block;
+    color: rgb(45, 103, 230);
+    
+ }
+
+ footer{
+    margin-top: 150px;
+    height: 300px;
+    background-image: linear-gradient(45deg, white, rgb(250, 178, 190));
+    text-align: center;
+    border-top: 5px solid pink;
+    
+ }
+
+ .logo-rodape{
+    padding: 50px;
+    color:rgba(0, 109, 240, 1);
+ }
+
+ .logo-rodape h1{
+    font-family:'Dancing Script', cursive;
+ }
+
