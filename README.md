@@ -1,2 +1,3 @@
-# Projeto_Neil_Designer
- Site de serviço feito com html e css puro
+# Projeto_Landing_Page
+
+ Landing page simples com Html e Css puro.
