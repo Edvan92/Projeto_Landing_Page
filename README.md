@@ -1,3 +1,3 @@
 # Projeto_Landing_Page
 
- Landing page simples com Html e Css puro.
+ Landing page para estudo de responsividade HTML e manipulação de propriedade de CSS.
